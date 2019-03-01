@@ -75,31 +75,31 @@ Using network 'rinkeby'.
 
 Running migration: 1_initial_migration.js
   Deploying Migrations...
-  ... 0x5844fcf17ee1fab08d34e8187e9c334d17c595306708ba712f0dcab717969c8f
-  Migrations: 0xc2efd0b24aab3e625e56b21c229866335b92e9a9
+  ... 0x03ce0f1f4fa19d1fd174d738db7123d15aa13abf7de180122433e1daf756a16c
+  Migrations: 0x2c5cac30bceb83c0fca8a7b5c6e57427531a02ef
 Saving artifacts...
 Running migration: 2_deploy_contracts.js
   Deploying FarmerRole...
-  ... 0xa6f2bdb5ecc4954fbaab1e6eefe00b91027b964ccca5c4e5ae4f6bb4dd2c453c
-  FarmerRole: 0xfc612acda6b09041cc716c6c8853ae86bf3e7e01
+  ... 0x9c43562076ab983207194474714f0c34b88fdc9e6db67e51970c6a218d6ce1b7
+  FarmerRole: 0xbc528421195b3d6877d7b91b50f964fac1eed6b0
   Deploying DistributorRole...
-  ... 0x4824ed846653499017bfc05c2b74ca28c8e80faa912ca812c43b2d514158529d
-  DistributorRole: 0x03eefcef7eebff7627f5f86da24a1054612f8f2f
+  ... 0x925dfb325a0369f52ed4524a7dd8d4bb88e4876684fe708e99181196545da3b3
+  DistributorRole: 0xc329ee5ff6c0c0d74760f68822f25c122481444c
   Deploying RetailerRole...
-  ... 0x222e5042f9d9bb370de93995cddf32b30eee04e27599030f92507b1a2d1fff95
-  RetailerRole: 0x50e8b69f067f14ae50891b1ff31104f1f1318822
+  ... 0x1fc4900a379c8d43fb7dedbe576ccfadd35e8d98dbe8cfd07b191c9b4cfa273e
+  RetailerRole: 0x11562d275d9ec5a71768ceb490106c7cbe8edb97
   Deploying ConsumerRole...
-  ... 0x8c15a8e6c4e9d4a2a309efc77bbbe31b9bdde1c543f063616baa4c6cc9e59fd0
-  ConsumerRole: 0x4f3a27f02b4192d6d1b6fb6341f016191035afe4
+  ... 0x39f8daf03b3c4fcf19f6abe8cdb03c93ab8eda46b5e15457b2171ccfd94e4afe
+  ConsumerRole: 0x8b7732126df05497f212a00fb3a68e2f78f1cc00
   Deploying SupplyChain...
-  ... 0xd715073877a82023edcd948b140efb7063bdf29d3b1eff06b0cb3d94581c3c69
-  SupplyChain: 0x54b70d49863b774f7bbdcc92c77097294b1e5ea6
+  ... 0xe7a4a4a66ce021d7f137dcbfe7ae139feb13854db24c47d9329ce2e2553b6ba0
+  SupplyChain: 0x8c1c8b3a5dcf8d864a53d3ddd55b275c8af168ac
 Saving artifacts...
 ```
 
 And is found in the address:
 
-https://rinkeby.etherscan.io/address/0x54b70d49863b774f7bbdcc92c77097294b1e5ea6
+https://rinkeby.etherscan.io/address/0x8c1C8b3A5DCF8D864A53D3dDD55B275c8Af168ac
 
 
 
