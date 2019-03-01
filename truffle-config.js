@@ -19,11 +19,11 @@
  */
 
  const HDWalletProvider = require('truffle-hdwallet-provider');
- const infuraKey = "7ef91bed5f3a4ae3b4761644e4fd8920";
+ const infuraKey = "5e3af3ca9e4242149a996c77d9a5adb2";
 //
 const fs = require('fs');
-const mnemonic = fs.readFileSync(".secret").toString().trim();
 
+const mnemonic = fs.readFileSync(".secret").toString().trim();
 module.exports = {
   /**
    * Networks define how you connect to your ethereum client and let you set the
@@ -61,9 +61,10 @@ module.exports = {
     // Useful for deploying to a public network.
     // NB: It's important to wrap the provider as a function.
     rinkeby: {
-      provider: () => new HDWalletProvider(mnemonic, `https://ropsten.infura.io/${infuraKey}`),
+      provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/${infuraKey}`),
       network_id: 4,       // Rinkeby's id
-      gas: 55000,        
+      gas: 4500000,
+      gasPrice: 10000000000,
       confirmations: 2,    // # of confs to wait between deployments. (default: 0)
     // timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
     //  skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
