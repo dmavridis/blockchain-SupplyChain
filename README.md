@@ -68,38 +68,38 @@ To test code verifies the validity of the contract function and lies in the test
 
 The contract is deployed in the Rinkeby network, using truffle and Infura.
 
-- **Infura key:**  `7ef91bed5f3a4ae3b4761644e4fd8920`
+- **Infura key:**  `5e3af3ca9e4242149a996c77d9a5adb2`
 
 ```
 Using network 'rinkeby'.
 
 Running migration: 1_initial_migration.js
   Deploying Migrations...
-  ... 0x03ce0f1f4fa19d1fd174d738db7123d15aa13abf7de180122433e1daf756a16c
-  Migrations: 0x2c5cac30bceb83c0fca8a7b5c6e57427531a02ef
+  ... 0x3fbfd1b07281f16fd362cfb8e97e68a9b2f623f0db5317af06e1522c30600bd0
+  Migrations: 0x0512c8dae70e3400c1993402d8ea58dffe9fea50
 Saving artifacts...
 Running migration: 2_deploy_contracts.js
-  Deploying FarmerRole...
-  ... 0x9c43562076ab983207194474714f0c34b88fdc9e6db67e51970c6a218d6ce1b7
-  FarmerRole: 0xbc528421195b3d6877d7b91b50f964fac1eed6b0
-  Deploying DistributorRole...
-  ... 0x925dfb325a0369f52ed4524a7dd8d4bb88e4876684fe708e99181196545da3b3
-  DistributorRole: 0xc329ee5ff6c0c0d74760f68822f25c122481444c
-  Deploying RetailerRole...
-  ... 0x1fc4900a379c8d43fb7dedbe576ccfadd35e8d98dbe8cfd07b191c9b4cfa273e
-  RetailerRole: 0x11562d275d9ec5a71768ceb490106c7cbe8edb97
-  Deploying ConsumerRole...
-  ... 0x39f8daf03b3c4fcf19f6abe8cdb03c93ab8eda46b5e15457b2171ccfd94e4afe
-  ConsumerRole: 0x8b7732126df05497f212a00fb3a68e2f78f1cc00
-  Deploying SupplyChain...
-  ... 0xe7a4a4a66ce021d7f137dcbfe7ae139feb13854db24c47d9329ce2e2553b6ba0
-  SupplyChain: 0x8c1c8b3a5dcf8d864a53d3ddd55b275c8af168ac
+  Replacing FarmerRole...
+  ... 0xe0af8502038d00988df67d3f36402baa3f6b51eef03bcff0c03898b48f4c75e2
+  FarmerRole: 0x16cad59a39085b899a19d383d8b0a46c24afa52d
+  Replacing DistributorRole...
+  ... 0x38093aa2f1630c9b0393ccef5a4a6ca2f7299e0068250189449a2fc95e01fa1c
+  DistributorRole: 0x80025d682870537bad8cee0ad7004752c31cb1cc
+  Replacing RetailerRole...
+  ... 0xd35f89023308a5dfe81d0c07b59efd21dbc6983a58636c0b2ddb1b7e0b303d21
+  RetailerRole: 0x37206face67a2e1f8c6b1f9bc4df6e8c26d83d5f
+  Replacing ConsumerRole...
+  ... 0x790fe048ca79e3a7d9c1af8210f76e7be47751f04e3204d1c52ef8fede7c8f2d
+  ConsumerRole: 0x022452081f19de5d031e2c525e7447ecb7e555cb
+  Replacing SupplyChain...
+  ... 0xea3b95b60533df6201b1f872e6448c6041f18f7330e439f1cfeded72578c1632
+  SupplyChain: 0xfdc35e6201bc3737d65c8817f526b107e283d855
 Saving artifacts...
 ```
 
 And is found in the address:
 
-https://rinkeby.etherscan.io/address/0x8c1C8b3A5DCF8D864A53D3dDD55B275c8Af168ac
+https://rinkeby.etherscan.io/address/0xFDC35E6201Bc3737D65C8817F526b107e283D855
 
 
 
